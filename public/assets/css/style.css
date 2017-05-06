@@ -1,0 +1,93 @@
+body {
+	background-color: #66b3ff;
+}
+
+
+section {
+	width: 80%;
+	margin: auto;
+}
+
+#burger-container {
+	width: 25%;
+	margin: auto;
+}
+
+h1 {
+	font-size: 70px;
+	margin-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+h2 {
+	letter-spacing: 4px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: underline;
+	margin: 5px 0px 5px 0px;
+}
+
+h3, h4, h5, h6, p {
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+main {
+	overflow: auto;
+	border-radius: 8px;
+	padding-bottom: 5px;
+}
+
+main div {
+	width: 50%;
+	float: left;
+}
+
+li {
+	text-align: center;
+	margin: 5px;
+}
+
+li p {
+	display: inline-block;
+	padding: 10px;
+}
+
+li button {
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+li button:hover {
+	color: #fcf5de;
+}
+
+#bottom-box {
+	clear: left;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#bottom-box input {
+	margin: 20px;
+	padding: 20px 40px;
+	border: none;
+	border-radius: 5px;
+}
+
+#bottom-box button {
+	border: none;
+	border-radius: 5px;
+	padding: 10px 15px;
+	background-color: #89c128;
+	font-size: 17px;
+}
+
+h3 {
+	border-radius: 5px;
+	padding: 10px;
+}
+
