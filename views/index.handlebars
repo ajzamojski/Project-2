@@ -1,0 +1,47 @@
+<section>
+	<header>
+		<figure>
+			<div id="burger-container">
+				<img src="./assets/images/burgerIcon.svg" alt="burger icon">
+			</div>
+			<h1>Eat the Burger!</h1>
+		</figure>
+	</header>
+	<main>
+		<div id="undevoured">
+			<h2>Ready to Eat!</h2>
+			<ul>
+				{{#each burgers}}
+					{{#unless this.devoured}}
+						<li>
+							<form action="/{{this.id}}?_method=PUT" method="POST">
+								<p>{{this.id}}. {{this.burger_name}}</p>
+								<button type="submit">Eat!</button>
+							</form>
+						</li>
+					{{/unless}}
+				{{/each}}
+			</ul>
+		</div>
+		<div id="devoured">
+			<h2>Devoured</h2>
+			<ul>
+				{{#each burgers}}
+					{{#if this.devoured}}
+						<li>
+							<p>{{this.id}}. {{this.burger_name}}</p>
+						</li>
+					{{/if}}
+				{{/each}}
+			</ul>
+		</div>
+	</main>
+	<div id="bottom-box">
+		<form action="/api/addBurger" method="POST">
+			<input type="text" name="burgerName" placeholder="Burger name here"required>
+			<button type="submit">Submit</button>
+		</form>
+		<h3>Add a burger using this form.</h3>
+		<h3>Eat the burger by clicking Eat!</h3>
+	</div>
+</section>
