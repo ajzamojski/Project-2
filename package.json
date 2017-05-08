@@ -9,6 +9,7 @@
     "handlebars": "^4.0.8",
     "method-override": "^2.3.8",
     "mysql": "^2.13.0",
+    "sequelize": "^3.30.4",
     "sequelize-cli": "^2.7.0",
     "sequelize-registry": "^1.1.0"
   },
