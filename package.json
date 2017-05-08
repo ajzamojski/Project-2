@@ -1,0 +1,30 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "## Team Members: Bobby Frazette, Abhava Pawar, Vanessa Otto, Adam Zamojski",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "handlebars": "^4.0.8",
+    "method-override": "^2.3.8",
+    "mysql": "^2.13.0",
+    "sequelize-cli": "^2.7.0",
+    "sequelize-registry": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajzamojski/Project-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajzamojski/Project-2/issues"
+  },
+  "homepage": "https://github.com/ajzamojski/Project-2#readme"
+}
